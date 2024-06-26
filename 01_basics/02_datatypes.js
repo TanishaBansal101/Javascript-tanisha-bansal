@@ -5,7 +5,7 @@ console.log(4+8);
 console.log("Tanisha Bansal");
 
 let name ="Tanisha"
-let age="19"
+let age=19
 let isLoggedIn=false
 let state;
 
@@ -19,3 +19,4 @@ let state;
 
 console.log(typeof undefined);  //undefined
 console.log(typeof null);    //object
+console.log(typeof age);
