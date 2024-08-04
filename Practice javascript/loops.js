@@ -34,6 +34,19 @@ do {
 } while (num <= 5);
 
 // task 6 = calculate factorial of a number
+let fact=5;
+function factorial(fact){
+  let ans=1;
+  if(fact===0){
+    return 1;
+  }
+  for(let i=2;i<=fact;i++){
+    ans=ans*i;
+  }
+  return ans;
+}
+console.log(factorial(fact));
+
 
 // task 7= pattern
 let row = 5;
