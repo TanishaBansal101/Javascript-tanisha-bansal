@@ -27,7 +27,9 @@ console.log(arr1);
 
 
 // task 10
-let arr2
+const arr=[]
 for(let i=1;i<=10;i++){
-    console.log(arr2);
+    arr.push(i);
 }
+console.log(arr);
+
